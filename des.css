@@ -1,0 +1,147 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: seagreen;
+
+}
+
+
+
+
+.container {
+
+    display: flex;
+    line-height: auto;
+    flex-wrap: wrap;
+
+    width: 100%;
+
+    background-color: lightseagreen;
+    border: 5px solid green;
+
+}
+
+
+
+.container div {
+
+    width: 100%;
+
+}
+
+
+
+.myInfo {
+
+    text-align: center;
+
+    margin: 5px;
+    padding: auto;
+
+}
+
+
+
+.des {
+
+    text-align: center;
+
+    margin: 0px;
+
+}
+
+
+
+.key {
+
+    text-align: center;
+
+    margin: 10px;
+
+}
+
+
+
+.plainMessage {
+
+    text-align: center;
+
+    margin: 5px;
+
+}
+
+
+
+.encryptedMessage {
+
+    text-align: center;
+
+    margin: 5px;
+
+}
+
+button:hover{
+background-color: green;
+}
+
+.buttons {
+
+    text-align: center;
+
+    margin: 10px;
+
+}
+
+
+
+.keys div {
+
+    margin: 10px;
+
+}
+
+
+
+.keys div label {
+
+    display: block;
+
+}
+
+
+
+#labelPlain,
+
+#labelEncrypted {
+
+    display: block;
+    
+
+}
+
+
+
+textarea {
+
+    width: 70%;
+
+    height: 100px;
+
+    
+
+}
+
+
+
+@media screen and (min-width:700px) {
+
+    body {
+
+        width: 700px;
+
+        margin: 0 auto;
+
+    }
+
+}
